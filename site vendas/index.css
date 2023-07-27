@@ -1,0 +1,391 @@
+
+
+.top-bar {
+    background-color: black;
+    text-align: center;
+    padding: 9px;
+    font-size: 20px;
+    color: rgb(106, 105, 105);
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-family: 'Caprasimo', cursive;
+    padding: 10px 50px;
+    font-size: 40px;
+
+}
+
+.top-nav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.top-nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-nav a {
+    float: right;
+    background-color: none;
+    color: black;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+}
+
+.top-nav a.active {
+    float: left;
+    background-color: none;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Caprasimo', cursive;
+}
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LIMITED {
+    text-align: center;
+    padding: 30px 30px;
+    font-family: 'Agdasima', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 70px 50px;
+}
+
+.cart-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.login {
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.card-text {
+    color: grey;
+}
+
+.navbar_2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: center;
+    background: rgb(240, 240, 240);
+}
+
+.instagran {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding-top: 70px;
+    font-family: 'Agdasima', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+
+.btn-shop {
+    background: black;
+    padding: 10px 30px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.btn-shop:hover {
+    background-color:white;
+    color: black;
+    transition: 0.8s;
+}
+
+.thc {
+    display: flex;
+    justify-content: center;
+    padding: 80px 30px;
+    background: rgb(240, 240, 240);
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 50px;
+    float: right;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 10px;
+}
+
+.btn-3 {
+    padding: 10px 15px;
+    letter-spacing: 3px;
+}
+
+.btn-3:hover {
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+
+.top-bar-1 {
+    background-color: black;
+    padding: 9px;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+    /* Estilos adicionais */
+    .product-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      .product-image {
+        width: 50%;
+        float: left;
+        margin-right: 20px;
+      }
+  
+      .product-details {
+        width: 50%;
+        float: left;
+      }
+
+      .product-1 {
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding: 10px 20px;
+      }
+
+      .price {
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding: 10px 20px;
+      }
+
+      .quantidade {
+        padding: 20px 30px;
+      }
+
+      .carrinho {
+        background: white;
+        color: black;
+        letter-spacing: 1px;
+      }
+
+      .carrinho:hover {
+        background-color: black;
+        color: white;
+        transition: 0.7s;
+      }
+
+      .carrinho-2 {
+        background: black;
+        color: white;
+      }
+
+      .carrinho-2:hover {
+        background-color: white;
+        color: black;
+        transition: 0.7s;
+      }
+
+      
+
+      .botao-produto {
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        letter-spacing: 2px;
+      }
+
+      .botao-produto:hover {
+        background-color: white;
+        color: black;
+        transition: 0.7s;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .navbar-1 {
+        background-color: black;
+        color: #fff;
+        
+        bottom: 0;
+        width: 100%;
+        padding: 55px 40px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .navbar-left {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar-left span {
+        margin-right: 10px;
+      }
+      
+      .navbar-right {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar-right input[type="email"] {
+        padding: 5px;
+      }
+      
+      .navbar-right button {
+        background-color: black;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        margin-left: 10px;
+        cursor: pointer;
+      }    body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .navbar-1 {
+        background-color: black;
+        color: #fff;
+        
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .navbar-left {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar-left span {
+        margin-right: 10px;
+      }
+      
+      .navbar-right {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar-right input[type="email"] {
+        padding: 5px;
+      }
+      
+      .navbar-right button {
+        background-color: #555;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+
+      .navdown-links {
+        text-decoration: none;
+        color: white;
+        padding: 10px 10px;
+      }
+
+      .navbar-2 {
+        background-color: #333;
+        color: #fff;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .navbar-left {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar-left span {
+        margin-right: 10px;
+      }
+      
+      .navbar-right {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar-right input[type="email"] {
+        padding: 5px;
+      }
+      
+      .navbar-right button {
+        background-color: #555;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+
+      .LIMITED-1 {
+        text-align: center;
+        padding: 30px 30px;
+        font-family: 'Agdasima', sans-serif;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 35px;
+        padding: 8px 50px;
+    }
+
+    .LIMITED-2 {
+      text-align: center;
+      padding: 30px 30px;
+      font-family: 'Agdasima', sans-serif;
+      letter-spacing: 3px;
+      font-weight: bold;
+      font-size: 35px;
+      padding: 60px 50px;
+  }
+
+
